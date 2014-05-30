@@ -1,0 +1,16 @@
+development: &defaults
+  adapter: postgresql
+  encoding: unicode
+  database: ranked_development
+  pool: 5
+  username: postgres
+  password: postgres
+  timeout: 5000
+
+test:
+  <<: *defaults
+  database: ranked_test
+
+production:
+  <<: *defaults
+  database: ranked_development

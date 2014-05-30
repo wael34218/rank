@@ -1,0 +1,15 @@
+---
+create:
+  ID-e9e3f3b9b59026adf0fa49ef7906992f:
+    description: |-
+      Successful Registration:
+              curl -X POST http://wael.docpoint.com/api/v1/accounts -F "phone=225643434234&first_name=damingo&last_name=Rodriguez&nickname=bullfighterde" -F avatar=@kitchen.jpg
+    method: POST
+    path: "/api/v1/account"
+    params:
+      phone: "+962791231234123"
+      first_name: Troll
+      last_name: Warlord
+      nickname: Chinese
+    status: 200
+    body: "{\"account\":{\"id\":3,\"first_name\":\"Troll\",\"last_name\":\"Warlord\",\"nickname\":\"Chinese\",\"token\":\"387bad2d25747a4b6ca175c95d832a1a4fa5e321\",\"phone\":\"+962791231234123\",\"moves_count\":0,\"joker_count\":0}}"
