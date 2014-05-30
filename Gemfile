@@ -10,7 +10,7 @@ gem 'kaminari'
 gem 'rails-erd'
 gem 'rabl'
 gem 'api_docs'
-
+gem 'acts-as-taggable-on'
 
 
 # Use SCSS for stylesheets

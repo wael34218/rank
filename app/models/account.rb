@@ -4,6 +4,12 @@ class Account < ActiveRecord::Base
   has_many :friends
   has_many :activities, foreign_key: "subject_id"
   has_many :comments
+
+  acts_as_taggable
+  
+  scope :ordered_by_rank, ->(rank) {
+    order("CASE #{rank.map.with_index{|id,i| "WHEN id=#{id} THEN #{i}"}.join(" ")} end").where(id: rank)
+  }
   
   has_attached_file :avatar,
     :styles => {:small => "80x80>", :medium => "160x160>", :large=>"300x300>"},

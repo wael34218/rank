@@ -6,6 +6,10 @@ Rails.application.routes.draw do
   namespace :api, defaults: {format: 'json'} do
     namespace :v1 do
       post 'account' => "accounts#create"
+      post 'account/tags' => "accounts#tags"
+      get 'account/tag_leaders' => "accounts#tag_leaders"
+      get 'account/my_friends' => "accounts#my_friends"
+      get 'account/:id/ranked_friends' => "accounts#ranked_friends"
 
       post 'friends' => "friends#create"
       patch 'friend' => "friends#update"
