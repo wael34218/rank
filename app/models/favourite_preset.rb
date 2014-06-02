@@ -8,6 +8,8 @@ class FavouritePreset < ActiveRecord::Base
     :styles => {:small => "80x80>", :medium => "160x160>", :large=>"300x300>"},
     :default_url => "/images/default_avatar_:style.png"
 
+  validates_attachment :photo, content_type: { content_type: ["image/jpg", "image/jpeg", "image/png", "image/gif"] }
+
   def display_title
     title
   end

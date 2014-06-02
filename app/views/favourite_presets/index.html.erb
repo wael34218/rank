@@ -1,22 +1,28 @@
-<h1>Listing favourite_presets</h1>
+<h2>Listing Favourite Presets</h2>
 
-<table>
+<table class="table table-striped table-bordered">
   <thead>
     <tr>
+      <th>Photo</th>
       <th>Title</th>
       <th>Category</th>
-      <th colspan="3"></th>
+      <th>Created At</th>
+      <th>Actions</th>
     </tr>
   </thead>
 
   <tbody>
     <% @favourite_presets.each do |favourite_preset| %>
       <tr>
+        <td><%= image_tag favourite_preset.photo.url(:small), class: "img-rounded"%></td>
         <td><%= favourite_preset.title %></td>
-        <td><%= favourite_preset.favourite_category_id %></td>
-        <td><%= link_to 'Show', favourite_preset %></td>
-        <td><%= link_to 'Edit', edit_favourite_preset_path(favourite_preset) %></td>
-        <td><%= link_to 'Destroy', favourite_preset, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= favourite_preset.favourite_category.title %></td>
+        <td><%= favourite_preset.created_at.to_s.split(" ")[0] %></td>
+        <td>
+          <%= link_to 'Show', favourite_preset, class: "btn btn-mini" %>
+          <%= link_to 'Edit', edit_favourite_preset_path(favourite_preset), class: "btn btn-mini" %>
+          <%= link_to 'Destroy', favourite_preset, method: :delete, class: "btn btn-mini btn-danger", data: { confirm: 'Are you sure?' } %>
+        </td>
       </tr>
     <% end %>
   </tbody>
@@ -24,4 +30,4 @@
 
 <br>
 
-<%= link_to 'New Favourite preset', new_favourite_preset_path %>
+<%= link_to 'New Favourite preset', new_favourite_preset_path, class: "btn btn-primary" %>

@@ -69,6 +69,6 @@ class FavouritePresetsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def favourite_preset_params
-      params.require(:favourite_preset).permit(:title, :favourite_category_id)
+      params.require(:favourite_preset).permit(:title, :favourite_category_id, :photo)
     end
 end

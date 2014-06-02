@@ -20,9 +20,6 @@ pre {
 
 a {
   color: #000;
-  &:visited {
-    color: #666;
-  }
   &:hover {
     color: #fff;
     background-color: #000;
@@ -66,4 +63,8 @@ div {
     font-size: 12px;
     list-style: square;
   }
+}
+input[type="file"] {
+  height: 16px;
+  line-height: 16px;
 }

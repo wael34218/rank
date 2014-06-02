@@ -1,20 +1,26 @@
-<h1>Listing moment_categories</h1>
+<h2>Listing Moment Categories</h2>
 
-<table>
+<table class="table table-striped table-bordered">
   <thead>
     <tr>
+      <th>Photo</th>
       <th>Text</th>
-      <th colspan="3"></th>
+      <th>Created At</th>
+      <th>Actions</th>
     </tr>
   </thead>
 
   <tbody>
     <% @moment_categories.each do |moment_category| %>
       <tr>
+        <td><%= image_tag moment_category.photo.url(:small), class: "img-rounded"%></td>
         <td><%= moment_category.text %></td>
-        <td><%= link_to 'Show', moment_category %></td>
-        <td><%= link_to 'Edit', edit_moment_category_path(moment_category) %></td>
-        <td><%= link_to 'Destroy', moment_category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= moment_category.created_at.to_s.split(" ")[0] %></td>
+        <td>
+          <%= link_to 'Show', moment_category, class: "btn btn-mini" %>
+          <%= link_to 'Edit', edit_moment_category_path(moment_category), class: "btn btn-mini" %>
+          <%= link_to 'Destroy', moment_category, method: :delete, class: "btn btn-mini btn-danger", data: { confirm: 'Are you sure?' } %>
+        </td>
       </tr>
     <% end %>
   </tbody>
@@ -22,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Moment category', new_moment_category_path %>
+<%= link_to 'New Moment category', new_moment_category_path, class: "btn btn-primary" %>

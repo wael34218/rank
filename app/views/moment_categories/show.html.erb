@@ -1,9 +1,19 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Text:</strong>
-  <%= @moment_category.text %>
-</p>
+<div class="span3">
+  <%= image_tag @moment_category.photo.url(:large), class: "img-rounded"%></td>
+</div>
+<div class="span9">
+  <p>
+    <strong>Text:</strong>
+    <%= @moment_category.text %>
+  </p>
 
-<%= link_to 'Edit', edit_moment_category_path(@moment_category) %> |
-<%= link_to 'Back', moment_categories_path %>
+  <p>
+    <strong>Created At:</strong>
+    <%= @moment_category.created_at %>
+  </p>
+
+  <%= link_to 'Edit', edit_moment_category_path(@moment_category), class: "btn" %>
+  <%= link_to 'Back', moment_categories_path, class: "btn" %>
+</div>

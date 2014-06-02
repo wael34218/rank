@@ -1,20 +1,26 @@
-<h1>Listing favourite_categories</h1>
+<h2>Listing Favourite Categories</h2>
 
-<table>
+<table class="table table-striped table-bordered">
   <thead>
     <tr>
+      <th>Photo</th>
       <th>Title</th>
-      <th colspan="3"></th>
+      <th>Created At</th>
+      <th>Actions</th>
     </tr>
   </thead>
 
   <tbody>
     <% @favourite_categories.each do |favourite_category| %>
       <tr>
+        <td><%= image_tag favourite_category.photo.url(:small), class: "img-rounded"%></td>
         <td><%= favourite_category.title %></td>
-        <td><%= link_to 'Show', favourite_category %></td>
-        <td><%= link_to 'Edit', edit_favourite_category_path(favourite_category) %></td>
-        <td><%= link_to 'Destroy', favourite_category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= favourite_category.created_at.to_s.split(" ")[0] %></td>
+        <td>
+          <%= link_to 'Show', favourite_category, class: "btn btn-mini" %>
+          <%= link_to 'Edit', edit_favourite_category_path(favourite_category), class: "btn btn-mini" %>
+          <%= link_to 'Destroy', favourite_category, method: :delete, class: "btn btn-mini btn-danger", data: { confirm: 'Are you sure?' } %>
+        </td>
       </tr>
     <% end %>
   </tbody>
@@ -22,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Favourite category', new_favourite_category_path %>
+<%= link_to 'New Favourite category', new_favourite_category_path, class: "btn btn-primary" %>

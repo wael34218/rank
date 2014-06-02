@@ -12,18 +12,19 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title %><br>
+    <%= f.label :title %>
     <%= f.text_field :title %>
   </div>
   <div class="field">
-    <%= f.label :photo%><br>
-    <%= f.file_field :photo %>
-  </div>
-  <div class="field">
-    <%= f.label :favourite_category_id %><br>
+    <%= f.label :favourite_category_id %>
     <%= f.select :favourite_category_id, options_for_select(FavouriteCategory.all.map{|f| [f.title, f.id]}) %>
   </div>
+  <div class="field">
+    <%= f.label :photo%>
+    <%= f.file_field :photo %>
+  </div>
+  <br />
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit class: "btn btn-warning" %>
   </div>
 <% end %>

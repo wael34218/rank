@@ -1,14 +1,22 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @favourite_preset.title %>
-</p>
+<div class="span3">
+  <%= image_tag @favourite_preset.photo.url(:large), class: "img-rounded"%></td>
+</div>
+<div class="span9">
+  <p>
+    <strong>Title:</strong>
+    <%= @favourite_preset.title %>
+  </p>
+  <p>
+    <strong>Category:</strong>
+    <%= @favourite_preset.favourite_category.title %>
+  </p>
+  <p>
+    <strong>Created At:</strong>
+    <%= @favourite_preset.created_at %>
+  </p>
+  <%= link_to 'Edit', edit_favourite_preset_path(@favourite_preset), class: "btn" %>
+  <%= link_to 'Back', favourite_presets_path, class: "btn" %>
+</div>
 
-<p>
-  <strong>Category:</strong>
-  <%= @favourite_preset.favourite_category_id %>
-</p>
-
-<%= link_to 'Edit', edit_favourite_preset_path(@favourite_preset) %> |
-<%= link_to 'Back', favourite_presets_path %>

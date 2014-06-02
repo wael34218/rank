@@ -1,9 +1,17 @@
 <p id="notice"><%= notice %></p>
+<div class="span3">
+  <%= image_tag @favourite_category.photo.url(:large), class: "img-rounded"%></td>
+</div>
+<div class="span9">
+  <p>
+    <strong>Title:</strong>
+    <%= @favourite_category.title %>
+  </p>
+  <p>
+    <strong>Created At:</strong>
+    <%= @favourite_category.created_at %>
+  </p>
+  <%= link_to 'Edit', edit_favourite_category_path(@favourite_category), class: "btn" %>
+  <%= link_to 'Back', favourite_categories_path, class: "btn" %>
+</div>
 
-<p>
-  <strong>Title:</strong>
-  <%= @favourite_category.title %>
-</p>
-
-<%= link_to 'Edit', edit_favourite_category_path(@favourite_category) %> |
-<%= link_to 'Back', favourite_categories_path %>

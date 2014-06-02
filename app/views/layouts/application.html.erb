@@ -11,6 +11,24 @@
 <div style="margin: 0px auto;width:960px;">
 <h1 style='text-align:center'>Ranked Admin Panel</h1>
 <br /><br />
+<div class="navbar">
+  <div class="navbar-inner">
+    <ul class="nav">
+      <li <%= "class=active" if request.original_url.include?("api_docs")%>>
+        <a href="/api_docs">API Docs</a>
+      </li>
+      <li <%= "class=active" if request.original_url.include?("favourite_categories")%>>
+        <a href="/favourite_categories">Favourite Categories</a>
+      </li>
+      <li <%= "class=active" if request.original_url.include?("favourite_presets")%>>
+        <a href="/favourite_presets">Favourite Presets</a>
+      </li>
+      <li <%= "class=active" if request.original_url.include?("moment_categories")%>>
+        <a href="/moment_categories">Moment Categories</a>
+      </li>
+    </ul>
+  </div>
+</div>
 <%= yield %>
 </div>
 
