@@ -1,6 +1,7 @@
 class Moment < Activity
   after_initialize :defaults
 
+  belongs_to :moment_category
   store_accessor :data, :moment_category_id
 
   validate :valid_moment_category_id

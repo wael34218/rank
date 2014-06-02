@@ -1,25 +1,239 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  id: 1
-  first_name: Billy
-  last_name: Astakat
-  nickname: LifeWithoutPandas
-  social_score: 0
-  token: 9186e07efb64702bf76610f18522440b6785b946
-  registered: false
-  phone: "+962-791231234"
-  moves_count: 0
-  joker_count: 0
-
-two:
-  id: 2
-  first_name: Adolf
-  last_name: Mussolini
+---
+accounts_001:
+  id: '9'
+  first_name: Bandora
+  last_name: Rodriguez
+  nickname: RampageOnAStick
+  social_score: '25'
+  token: 24a182b34cd6781e46c1d12867454c14664d4769
+  registered: t
+  phone: '225643434234'
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-24 13:22:26.070348'
+  updated_at: '2014-05-26 13:04:32.281585'
+accounts_002:
+  id: '5'
+  first_name: Rampage
+  last_name: Rodriguez
+  nickname: IFuckSDMode
+  social_score: '100'
+  token: 2a25980982484222dc0ba9471611a9da6e51fad4
+  registered: t
+  phone: '23434143234'
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-24 10:33:15.187805'
+  updated_at: '2014-05-24 10:33:15.187805'
+accounts_003:
+  id: '1'
+  first_name: Wael
+  last_name: Farhan 
+  nickname: Mayhem
+  social_score: '0'
+  token: 
+  registered: f
+  phone: "+962-823694263"
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-24 06:43:16.232804'
+  updated_at: '2014-05-24 06:43:16.232804'
+accounts_004:
+  id: '2'
+  first_name: Ziad
+  last_name: Salah
+  nickname: SoV
+  social_score: '0'
+  token: 
+  registered: f
+  phone: "+962-423694263"
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-24 06:43:25.493827'
+  updated_at: '2014-05-24 06:43:25.493827'
+accounts_005:
+  id: '3'
+  first_name: Wajdy
+  last_name: Farhan 
+  nickname: Ty13r
+  social_score: '0'
+  token: 
+  registered: f
+  phone: "+962-223694263"
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-24 06:43:35.997622'
+  updated_at: '2014-05-24 06:43:35.997622'
+accounts_006:
+  id: '4'
+  first_name: damingo
+  last_name: Rodriguez
+  nickname: bullfighter
+  social_score: '0'
+  token: 
+  registered: f
+  phone: '234143234'
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-24 10:05:28.555606'
+  updated_at: '2014-05-24 10:05:28.555606'
+accounts_007:
+  id: '11'
+  first_name: istakola
+  last_name: 
+  nickname: 
+  social_score: '0'
+  token: 
+  registered: f
+  phone: '2233434143235'
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-25 04:46:29.836042'
+  updated_at: '2014-05-25 04:46:29.836042'
+accounts_008:
+  id: '10'
+  first_name: Kambiasso
+  last_name: Messi
+  nickname: StopRankingMeIAmNotYourProperty
+  social_score: '0'
+  token: 16616c41f63649b06e5e43aa010ccf5168034a9e
+  registered: t
+  phone: 225643434234
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: kitchen.jpg
+  avatar_content_type: image/jpeg
+  avatar_file_size: '134641'
+  avatar_updated_at: '2014-05-24 13:26:13.64252'
+  created_at: '2014-05-24 13:26:15.412968'
+  updated_at: '2014-05-24 13:26:15.412968'
+accounts_009:
+  id: '13'
+  first_name: Life
+  last_name: WithoutPandas
+  nickname: IsCrap
+  social_score: '0'
+  token: 
+  registered: f
+  phone: '1256467734'
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-25 06:57:01.697747'
+  updated_at: '2014-05-25 06:57:01.697747'
+accounts_010:
+  id: '14'
+  first_name: Black
+  last_name: Hitler
   nickname: Peace
-  social_score: 0
-  token: MyString
-  registered: false
-  phone: "+962-771231234"
-  moves_count: 0
-  joker_count: 0
+  social_score: '0'
+  token: 
+  registered: f
+  phone: '125642345234'
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-25 07:14:36.422668'
+  updated_at: '2014-05-25 07:14:36.422668'
+accounts_011:
+  id: '12'
+  first_name: Gemma
+  last_name: Atkinson
+  nickname: DoubleD
+  social_score: '0'
+  token: 
+  registered: f
+  phone: '12564234234'
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-25 06:25:35.778362'
+  updated_at: '2014-05-26 12:34:55.192823'
+accounts_012:
+  id: '6'
+  first_name: Domingo
+  last_name: Rodriguez
+  nickname: BullFighterNoStereoTyping
+  social_score: '60'
+  token: 9ec2f2a772dc0af9a2b6bd206d1f7e6f9e4a667d
+  registered: t
+  phone: '2233434143234'
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-24 10:35:28.280594'
+  updated_at: '2014-05-27 11:08:26.980443'
+accounts_013:
+  id: '8'
+  first_name: Baffalo
+  last_name: Wings
+  nickname: Bia3teekJwane7
+  social_score: '43'
+  token: 2a0adbd6dd425ef743cb08d288a621954767c8dd
+  registered: t
+  phone: '+962-771231234'
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-24 13:20:04.84888'
+  updated_at: '2014-05-27 11:08:26.987489'
+accounts_014:
+  id: '7'
+  first_name: Carlos
+  last_name: Boozer
+  nickname: TattooOnYourHead
+  social_score: '230'
+  token: 9186e07efb64702bf76610f18522440b6785b946
+  registered: t
+  phone: '2233434234'
+  moves_count: '0'
+  joker_count: '0'
+  avatar_file_name: 
+  avatar_content_type: 
+  avatar_file_size: 
+  avatar_updated_at: 
+  created_at: '2014-05-24 10:35:59.697807'
+  updated_at: '2014-05-30 13:54:45.834652'

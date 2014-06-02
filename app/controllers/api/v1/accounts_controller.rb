@@ -15,7 +15,7 @@ class Api::V1::AccountsController < Api::V1::ApiApplicationController
   def tags
     @account.tag_list = params[:tags]
     if @account.save
-      render 'show'
+      render 'show', locals: { object: @account}
     else
       @message = @account.errors.full_messages
       render 'api/v1/error', :status => :unprocessable_entity
@@ -29,11 +29,22 @@ class Api::V1::AccountsController < Api::V1::ApiApplicationController
     render 'index'
   end
 
-  def my_friends
+  def friends
     per_page = params[:per_page] || 10
     page = params[:page] || 1
-    @friends = @account.friends.order('rank asc nulls last').page(page).per(per_page)
-    @accounts = Account.ordered_by_rank(@friends.map(&:friend_id))
+    if params[:account_id].present?
+      account = Account.where(id: params[:account_id]).first
+      if account.present?
+        @friends = aaccount.friends.order('rank asc nulls last').page(page).per(per_page)
+        @accounts = Account.ordered_by_rank(@friends.map(&:friend_id))
+      else
+        @message = "Account not found .. you areh allucinating! I know a great doctor that could help out"
+        render 'api/v1/error', :status => :not_found and return
+      end
+    else
+      @friends = @account.friends.order('rank asc nulls last').page(page).per(per_page)
+      @accounts = Account.ordered_by_rank(@friends.map(&:friend_id))
+    end
     render 'index'
   end
 

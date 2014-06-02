@@ -1,9 +1,44 @@
 ---
+friends:
+  ID-9fa3de0aac353aa50c98767441c1c731:
+    description: |-
+      Get all my friends:
+              curl -X GET http://wael.docpoint.com/api/v1/account/friends -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+    method: GET
+    path: "/api/v1/account/friends"
+    params:
+      token: 2a25980982484222dc0ba9471611a9da6e51fad4
+    status: 200
+    body: "{\"total\":3,\"total_pages\":1,\"accounts\":[{\"id\":6,\"first_name\":\"Domingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"BullFighterNoStereoTyping\",\"phone\":\"2233434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":60,\"friend\":true,\"bond\":50,\"rank\":1},{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":true,\"bond\":50,\"rank\":3}]}"
+ranked_friends:
+  ID-ebbbdfbaa7b85f8de558884ecb0b6b94:
+    description: |-
+      Get ranked friends for some account:
+              curl -X GET http://wael.docpoint.com/api/v1/account/5/ranked_friends -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&account_id=5'
+    method: GET
+    path: "/api/v1/account/:id/ranked_friends"
+    params:
+      token: 2a25980982484222dc0ba9471611a9da6e51fad4
+      id: '5'
+    status: 200
+    body: "{\"total\":3,\"total_pages\":1,\"accounts\":[{\"id\":6,\"first_name\":\"Domingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"BullFighterNoStereoTyping\",\"phone\":\"2233434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":60,\"friend\":true,\"bond\":50,\"rank\":1},{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":true,\"bond\":50,\"rank\":3}]}"
+tag_leaders:
+  ID-c6af8b8cc673b8542597f143428f1006:
+    description: |-
+      Get leaderboard of certain tag:
+              curl -X GET http://wael.docpoint.com/api/v1/account/tag_leaders -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tag=subtle porn'
+    method: GET
+    path: "/api/v1/account/tag_leaders"
+    params:
+      token: 2a25980982484222dc0ba9471611a9da6e51fad4
+      tag: subtle porn
+    status: 200
+    body: "{\"total\":1,\"total_pages\":1,\"accounts\":[{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1}]}"
 create:
-  ID-e9e3f3b9b59026adf0fa49ef7906992f:
+  ID-a54c76a01f4d7246fd42fbf823f2e03f:
     description: |-
       Successful Registration:
-              curl -X POST http://wael.docpoint.com/api/v1/accounts -F "phone=225643434234&first_name=damingo&last_name=Rodriguez&nickname=bullfighterde" -F avatar=@kitchen.jpg
+              curl -X POST http://wael.docpoint.com/api/v1/accounts -F "phone=225643434234&first_name=damingo&last_name=Rodriguez& nickname=bullfighterde" -F avatar=@kitchen.jpg
     method: POST
     path: "/api/v1/account"
     params:
@@ -12,4 +47,16 @@ create:
       last_name: Warlord
       nickname: Chinese
     status: 200
-    body: "{\"account\":{\"id\":3,\"first_name\":\"Troll\",\"last_name\":\"Warlord\",\"nickname\":\"Chinese\",\"token\":\"387bad2d25747a4b6ca175c95d832a1a4fa5e321\",\"phone\":\"+962791231234123\",\"moves_count\":0,\"joker_count\":0}}"
+    body: "{\"account\":{\"id\":15,\"first_name\":\"Troll\",\"last_name\":\"Warlord\",\"nickname\":\"Chinese\",\"phone\":\"+962791231234123\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":false}}"
+tags:
+  ID-00ad9596a5b775d7b78244654a202f37:
+    description: |-
+      Tags list are comma separated:
+              curl -X POST http://wael.docpoint.com/api/v1/account/tags -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tags=subtle porn,black label society'
+    method: POST
+    path: "/api/v1/account/tags"
+    params:
+      token: 2a25980982484222dc0ba9471611a9da6e51fad4
+      tags: subtle porn,black label society
+    status: 200
+    body: "{\"account\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false}}"

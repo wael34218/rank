@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  first_name: Billy
+  last_name: Astakat
+  nickname: LifeWithoutPandas
+  social_score: 0
+  token: 9186e07efb64702bf76610f18522440b6785b946
+  registered: false
+  phone: "+962-791231234"
+  moves_count: 0
+  joker_count: 0
+
+two:
+  id: 2
+  first_name: Adolf
+  last_name: Mussolini
+  nickname: Peace
+  social_score: 0
+  token: 2a25980982484222dc0ba9471611a9da6e51fad4
+  registered: true
+  phone: "+962-771231234"
+  moves_count: 0
+  joker_count: 0
+
+three:
+  id: 3
+  first_name: Sakookeh
+  last_name: Hubnahoff
+  nickname: StopRankingMeIAmNotYourProperty
+  social_score: 0
+  token: MyString
+  registered: false
+  phone: "+962-711231234"
+  moves_count: 0
+  joker_count: 0
+
+four:
+  id: 4
+  first_name: Gemma
+  last_name: Atkinson
+  nickname: DoubleD
+  social_score: 0
+  token: MyString
+  registered: false
+  phone: "+962-711341234"
+  moves_count: 0
+  joker_count: 0

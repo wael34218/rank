@@ -1,0 +1,487 @@
+---
+activities_001:
+  id: '2'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 2
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 14:41:40.284815'
+  updated_at: '2014-05-25 14:41:40.284815'
+  urgent: t
+activities_002:
+  id: '3'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 8
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 14:47:24.927895'
+  updated_at: '2014-05-25 14:47:24.927895'
+  urgent: t
+activities_003:
+  id: '4'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 3
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 14:47:54.707216'
+  updated_at: '2014-05-25 14:47:54.707216'
+  urgent: t
+activities_004:
+  id: '5'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 7
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 14:59:06.259253'
+  updated_at: '2014-05-25 14:59:06.259253'
+  urgent: t
+activities_005:
+  id: '6'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 10
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"0\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 15:02:07.110306'
+  updated_at: '2014-05-25 15:02:07.110306'
+  urgent: t
+activities_006:
+  id: '7'
+  subject_id: '7'
+  activity_type: '2'
+  target_id: 5
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"1\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 15:02:25.010657'
+  updated_at: '2014-05-25 15:02:25.010657'
+  urgent: t
+activities_007:
+  id: '8'
+  subject_id: '7'
+  activity_type: '2'
+  target_id: 5
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"1\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 15:02:25.010657'
+  updated_at: '2014-05-25 15:02:25.010657'
+  urgent: t
+activities_008:
+  id: '9'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 8
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 15:03:15.322581'
+  updated_at: '2014-05-25 15:03:15.322581'
+  urgent: t
+activities_009:
+  id: '10'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 10
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 15:03:24.762599'
+  updated_at: '2014-05-25 15:03:24.762599'
+  urgent: t
+activities_010:
+  id: '11'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 8
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 15:04:30.03493'
+  updated_at: '2014-05-25 15:04:30.03493'
+  urgent: t
+activities_011:
+  id: '12'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 11
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 15:04:45.268765'
+  updated_at: '2014-05-25 15:04:45.268765'
+  urgent: t
+activities_012:
+  id: '13'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 13
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 15:05:01.675484'
+  updated_at: '2014-05-25 15:05:01.675484'
+  urgent: t
+activities_013:
+  id: '14'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 6
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 15:05:23.939905'
+  updated_at: '2014-05-25 15:05:23.939905'
+  urgent: t
+activities_014:
+  id: '15'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 8
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-26 06:51:20.168894'
+  updated_at: '2014-05-26 06:51:20.168894'
+  urgent: t
+activities_015:
+  id: '16'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 4
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-26 06:52:05.303108'
+  updated_at: '2014-05-26 06:52:05.303108'
+  urgent: t
+activities_016:
+  id: '17'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: 12
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-26 06:52:28.951362'
+  updated_at: '2014-05-26 06:52:28.951362'
+  urgent: t
+activities_017:
+  id: '18'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: '2'
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-26 06:55:09.380232'
+  updated_at: '2014-05-26 06:55:09.380232'
+  urgent: t
+activities_018:
+  id: '19'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: '2'
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-26 06:55:24.136629'
+  updated_at: '2014-05-26 06:55:24.136629'
+  urgent: t
+activities_019:
+  id: '21'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: '12'
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-26 10:03:21.331771'
+  updated_at: '2014-05-26 10:03:21.331771'
+  urgent: t
+activities_020:
+  id: '20'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: '2'
+  message: 
+  likes_count: '1'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-26 06:56:07.287796'
+  updated_at: '2014-05-29 08:46:25.708703'
+  urgent: t
+activities_021:
+  id: '22'
+  subject_id: '7'
+  activity_type: '2'
+  target_id: '5'
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"no\"=>\"0\", \"yes\"=>\"1\", \"tool\"=>\"3\", \"no_ids\"=>\"\", \"status\"=>\"0\",
+    \"yes_ids\"=>\"7\", \"ranked_id\"=>\"4\", \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-26 15:20:23.632607'
+  updated_at: '2014-05-26 19:04:14.489382'
+  urgent: t
+activities_022:
+  id: '23'
+  subject_id: '7'
+  activity_type: '0'
+  target_id: '5'
+  message: 
+  likes_count: '1'
+  comments_count: '0'
+  data: "\"moment_id\"=>\"1\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-28 11:48:21.970234'
+  updated_at: '2014-05-29 08:48:01.840022'
+  urgent: f
+activities_023:
+  id: '24'
+  subject_id: '7'
+  activity_type: '0'
+  target_id: '5'
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"moment_id\"=>\"1\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-28 11:50:33.463494'
+  updated_at: '2014-05-28 11:50:33.463494'
+  urgent: f
+activities_024:
+  id: '25'
+  subject_id: '7'
+  activity_type: '0'
+  target_id: '5'
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"moment_id\"=>\"1\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-28 11:51:05.352836'
+  updated_at: '2014-05-28 11:51:05.352836'
+  urgent: f
+activities_025:
+  id: '26'
+  subject_id: '7'
+  activity_type: '0'
+  target_id: '5'
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"private\"=>\"true\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-28 11:54:10.649314'
+  updated_at: '2014-05-28 11:54:10.649314'
+  urgent: f
+activities_026:
+  id: '27'
+  subject_id: '7'
+  activity_type: '0'
+  target_id: '5'
+  message: DatDude
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"private\"=>\"true\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-28 11:58:50.814341'
+  updated_at: '2014-05-28 11:58:50.814341'
+  urgent: f
+activities_027:
+  id: '28'
+  subject_id: '7'
+  activity_type: '0'
+  target_id: '5'
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: ''
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-28 12:06:09.165021'
+  updated_at: '2014-05-28 12:06:09.165021'
+  urgent: f
+activities_028:
+  id: '29'
+  subject_id: '7'
+  activity_type: '0'
+  target_id: '5'
+  message: 
+  likes_count: '0'
+  comments_count: '0'
+  data: "\"moment_category_id\"=>\"1\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-28 12:08:49.507994'
+  updated_at: '2014-05-28 12:08:49.507994'
+  urgent: f
+activities_029:
+  id: '1'
+  subject_id: '5'
+  activity_type: '2'
+  target_id: '2'
+  message: 
+  likes_count: '6'
+  comments_count: '7'
+  data: "\"no\"=>\"0\", \"yes\"=>\"0\", \"tool\"=>\"3\", \"status\"=>\"0\", \"ranked_id\"=>\"1\",
+    \"rank_change\"=>\"6\""
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-25 14:32:12.63272'
+  updated_at: '2014-05-30 12:31:58.714591'
+  urgent: t

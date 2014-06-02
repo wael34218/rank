@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140530131316) do
+ActiveRecord::Schema.define(version: 20140531080011) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -70,6 +70,45 @@ ActiveRecord::Schema.define(version: 20140530131316) do
 
   add_index "comments", ["account_id"], name: "index_comments_on_account_id", using: :btree
   add_index "comments", ["activity_id"], name: "index_comments_on_activity_id", using: :btree
+
+  create_table "favourite_categories", force: true do |t|
+    t.string   "title"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "favourite_presets", force: true do |t|
+    t.string   "title"
+    t.integer  "favourite_category_id"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "favourite_presets", ["favourite_category_id"], name: "index_favourite_presets_on_favourite_category_id", using: :btree
+
+  create_table "favourites", force: true do |t|
+    t.string   "title"
+    t.integer  "account_id"
+    t.integer  "favourite_category_id"
+    t.integer  "favourite_preset_id"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "favourites", ["account_id"], name: "index_favourites_on_account_id", using: :btree
+  add_index "favourites", ["favourite_category_id"], name: "index_favourites_on_favourite_category_id", using: :btree
 
   create_table "friends", force: true do |t|
     t.integer  "account_id"

@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  resources :favourite_presets
+  resources :favourite_categories
   resources :moment_categories
 
   mount ApiDocs::Engine => '/api_docs'
@@ -8,7 +11,7 @@ Rails.application.routes.draw do
       post 'account' => "accounts#create"
       post 'account/tags' => "accounts#tags"
       get 'account/tag_leaders' => "accounts#tag_leaders"
-      get 'account/my_friends' => "accounts#my_friends"
+      get 'account/friends' => "accounts#friends"
       get 'account/:id/ranked_friends' => "accounts#ranked_friends"
 
       post 'friends' => "friends#create"
@@ -28,6 +31,13 @@ Rails.application.routes.draw do
       post 'activity/:id/comment' => "activities#comment"
       post 'activity/:id/like' => "activities#like"
       get 'activities' => "activities#index"
+
+      get 'favourite/categories' => "favourites#categories"
+      get 'favourite/category/:id/presets' => "favourites#presets"
+      post 'favourite' => "favourites#create"
+      patch 'favourite/:id' => "favourites#update"
+      delete 'favourite/:id' => "favourites#destroy"
+      get 'favourites' => "favourites#index"
     end
   end
 end

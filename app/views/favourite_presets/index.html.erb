@@ -1,0 +1,27 @@
+<h1>Listing favourite_presets</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Category</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @favourite_presets.each do |favourite_preset| %>
+      <tr>
+        <td><%= favourite_preset.title %></td>
+        <td><%= favourite_preset.favourite_category_id %></td>
+        <td><%= link_to 'Show', favourite_preset %></td>
+        <td><%= link_to 'Edit', edit_favourite_preset_path(favourite_preset) %></td>
+        <td><%= link_to 'Destroy', favourite_preset, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Favourite preset', new_favourite_preset_path %>

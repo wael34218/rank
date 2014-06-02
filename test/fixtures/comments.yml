@@ -1,11 +1,169 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  message: MyString
-  activity_id: 1
-  account_id: 1
-
-two:
-  message: MyString
-  activity_id: 1
-  account_id: 1
+---
+comments_001:
+  id: '1'
+  message: batee5
+  activity_id: '1'
+  account_id: '7'
+  created_at: '2014-05-28 15:18:28.176473'
+  updated_at: '2014-05-28 15:18:28.176473'
+comments_002:
+  id: '2'
+  message: 
+  activity_id: '1'
+  account_id: '7'
+  created_at: '2014-05-28 15:19:19.599393'
+  updated_at: '2014-05-28 15:19:19.599393'
+comments_003:
+  id: '3'
+  message: 
+  activity_id: '1'
+  account_id: '7'
+  created_at: '2014-05-28 15:19:21.411192'
+  updated_at: '2014-05-28 15:19:21.411192'
+comments_004:
+  id: '4'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 07:34:15.501087'
+  updated_at: '2014-05-29 07:34:15.501087'
+comments_005:
+  id: '5'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 07:35:46.969014'
+  updated_at: '2014-05-29 07:35:46.969014'
+comments_006:
+  id: '6'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 07:36:15.344944'
+  updated_at: '2014-05-29 07:36:15.344944'
+comments_007:
+  id: '7'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 07:36:31.997645'
+  updated_at: '2014-05-29 07:36:31.997645'
+comments_008:
+  id: '8'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 07:37:21.120282'
+  updated_at: '2014-05-29 07:37:21.120282'
+comments_009:
+  id: '9'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 07:38:02.448498'
+  updated_at: '2014-05-29 07:38:02.448498'
+comments_010:
+  id: '10'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:14:00.739166'
+  updated_at: '2014-05-29 08:14:00.739166'
+comments_011:
+  id: '11'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:14:26.509881'
+  updated_at: '2014-05-29 08:14:26.509881'
+comments_012:
+  id: '12'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:14:54.5284'
+  updated_at: '2014-05-29 08:14:54.5284'
+comments_013:
+  id: '13'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:18:29.462817'
+  updated_at: '2014-05-29 08:18:29.462817'
+comments_014:
+  id: '14'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:18:59.671235'
+  updated_at: '2014-05-29 08:18:59.671235'
+comments_015:
+  id: '15'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:19:25.100517'
+  updated_at: '2014-05-29 08:19:25.100517'
+comments_016:
+  id: '16'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:19:55.915341'
+  updated_at: '2014-05-29 08:19:55.915341'
+comments_017:
+  id: '17'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:20:09.783546'
+  updated_at: '2014-05-29 08:20:09.783546'
+comments_018:
+  id: '18'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:22:46.893905'
+  updated_at: '2014-05-29 08:22:46.893905'
+comments_019:
+  id: '19'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:32:22.361536'
+  updated_at: '2014-05-29 08:32:22.361536'
+comments_020:
+  id: '20'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:33:34.476263'
+  updated_at: '2014-05-29 08:33:34.476263'
+comments_021:
+  id: '21'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:33:49.367817'
+  updated_at: '2014-05-29 08:33:49.367817'
+comments_022:
+  id: '22'
+  message: awef
+  activity_id: '11'
+  account_id: '7'
+  created_at: '2014-05-29 08:41:34.456039'
+  updated_at: '2014-05-29 08:41:34.456039'
+comments_023:
+  id: '23'
+  message: batee5
+  activity_id: '1'
+  account_id: '7'
+  created_at: '2014-05-30 10:44:48.074293'
+  updated_at: '2014-05-30 10:44:48.074293'
+comments_024:
+  id: '24'
+  message: batee5
+  activity_id: '1'
+  account_id: '7'
+  created_at: '2014-05-30 12:31:58.674024'
+  updated_at: '2014-05-30 12:31:58.674024'

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @favourite_preset.title %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @favourite_preset.favourite_category_id %>
+</p>
+
+<%= link_to 'Edit', edit_favourite_preset_path(@favourite_preset) %> |
+<%= link_to 'Back', favourite_presets_path %>

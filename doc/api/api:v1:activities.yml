@@ -1,0 +1,66 @@
+---
+comment:
+  ID-dc48b98515d2e7f2cac3400d452095a0:
+    description: |-
+      Comment on an activity:
+              curl -X POST http://wael.docpoint.com/api/v1/activity/5/comment -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&message=This is awesome'
+    method: POST
+    path: "/api/v1/activity/:id/comment"
+    params:
+      id: '2'
+      token: 2a25980982484222dc0ba9471611a9da6e51fad4
+      message: This is awesome
+    status: 200
+    body: "{\"activity\":{\"ranking\":{\"id\":2,\"urgent\":true,\"created_at\":\"2014-05-25
+      14:41:40 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false},\"target\":{\"id\":2,\"first_name\":\"Ziad\",\"last_name\":\"Salah\",\"nickname\":\"SoV\",\"phone\":\"+962-423694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":true,\"bond\":50,\"rank\":3}}}}"
+index:
+  ID-ee048347f28a792aebffd0261ec07fc0:
+    description: |-
+      Get news feed (default page=1 and per_page=10):
+              curl -X GET http://wael.docpoint.com/api/v1/activities -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+    method: GET
+    path: "/api/v1/activities"
+    params:
+      token: 2a25980982484222dc0ba9471611a9da6e51fad4
+    status: 200
+    body: "{\"total\":29,\"total_pages\":3,\"activities\":[{\"message\":{\"id\":24,\"created_at\":\"2014-05-28
+      11:50:33 UTC\",\"photo\":\"http:/images/default_photo_large.png\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false}}},{\"message\":{\"id\":25,\"created_at\":\"2014-05-28
+      11:51:05 UTC\",\"photo\":\"http:/images/default_photo_large.png\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false}}},{\"message\":{\"id\":26,\"created_at\":\"2014-05-28
+      11:54:10 UTC\",\"photo\":\"http:/images/default_photo_large.png\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false}}},{\"message\":{\"id\":27,\"created_at\":\"2014-05-28
+      11:58:50 UTC\",\"photo\":\"http:/images/default_photo_large.png\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false}}},{\"message\":{\"id\":28,\"created_at\":\"2014-05-28
+      12:06:09 UTC\",\"photo\":\"http:/images/default_photo_large.png\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false}}},{\"message\":{\"id\":29,\"created_at\":\"2014-05-28
+      12:08:49 UTC\",\"photo\":\"http:/images/default_photo_large.png\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false}}},{\"message\":{\"id\":23,\"created_at\":\"2014-05-28
+      11:48:21 UTC\",\"photo\":\"http:/images/default_photo_large.png\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false}}},{\"ranking\":{\"id\":2,\"urgent\":true,\"created_at\":\"2014-05-25
+      14:41:40 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false},\"target\":{\"id\":2,\"first_name\":\"Ziad\",\"last_name\":\"Salah\",\"nickname\":\"SoV\",\"phone\":\"+962-423694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":true,\"bond\":50,\"rank\":3}}},{\"ranking\":{\"id\":3,\"urgent\":true,\"created_at\":\"2014-05-25
+      14:47:24 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false},\"target\":{\"id\":8,\"first_name\":\"Baffalo\",\"last_name\":\"Wings\",\"nickname\":\"Bia3teekJwane7\",\"phone\":\"+962-771231234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":43,\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":true,\"bond\":50,\"rank\":3}}},{\"ranking\":{\"id\":4,\"urgent\":true,\"created_at\":\"2014-05-25
+      14:47:54 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false},\"target\":{\"id\":3,\"first_name\":\"Wajdy\",\"last_name\":\"Farhan\",\"nickname\":\"Ty13r\",\"phone\":\"+962-223694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":true,\"bond\":50,\"rank\":3}}}]}"
+  ID-6ec6c9bd73598c9d145e2f1e9a746b5d:
+    description: |-
+      Get news feed with pages:
+              curl -X GET http://wael.docpoint.com/api/v1/activities -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&page=2&per_page=5'
+    method: GET
+    path: "/api/v1/activities"
+    params:
+      page: '2'
+      per_page: '5'
+      token: 2a25980982484222dc0ba9471611a9da6e51fad4
+    status: 200
+    body: "{\"total\":29,\"total_pages\":6,\"activities\":[{\"message\":{\"id\":29,\"created_at\":\"2014-05-28
+      12:08:49 UTC\",\"photo\":\"http:/images/default_photo_large.png\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false}}},{\"message\":{\"id\":23,\"created_at\":\"2014-05-28
+      11:48:21 UTC\",\"photo\":\"http:/images/default_photo_large.png\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false}}},{\"ranking\":{\"id\":2,\"urgent\":true,\"created_at\":\"2014-05-25
+      14:41:40 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false},\"target\":{\"id\":2,\"first_name\":\"Ziad\",\"last_name\":\"Salah\",\"nickname\":\"SoV\",\"phone\":\"+962-423694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":true,\"bond\":50,\"rank\":3}}},{\"ranking\":{\"id\":3,\"urgent\":true,\"created_at\":\"2014-05-25
+      14:47:24 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false},\"target\":{\"id\":8,\"first_name\":\"Baffalo\",\"last_name\":\"Wings\",\"nickname\":\"Bia3teekJwane7\",\"phone\":\"+962-771231234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":43,\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":true,\"bond\":50,\"rank\":3}}},{\"ranking\":{\"id\":4,\"urgent\":true,\"created_at\":\"2014-05-25
+      14:47:54 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false},\"target\":{\"id\":3,\"first_name\":\"Wajdy\",\"last_name\":\"Farhan\",\"nickname\":\"Ty13r\",\"phone\":\"+962-223694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":true,\"bond\":50,\"rank\":3}}}]}"
+like:
+  ID-f0f628858d96bc8bbdd45f44a7827168:
+    description: |-
+      Like on an activity:
+              curl -X POST http://wael.docpoint.com/api/v1/activity/7/like -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+    method: POST
+    path: "/api/v1/activity/:id/like"
+    params:
+      id: '7'
+      token: 2a25980982484222dc0ba9471611a9da6e51fad4
+    status: 200
+    body: "{\"activity\":{\"ranking\":{\"id\":7,\"urgent\":true,\"created_at\":\"2014-05-25
+      15:02:25 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"friend\":true,\"bond\":50,\"rank\":3}}}}"

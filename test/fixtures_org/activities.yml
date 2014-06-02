@@ -1,0 +1,5 @@
+one:
+  id: 1
+  subject_id: 1
+  target_id: 1
+  data: <%= {:show_email => true, :allow_pm => :false}.to_yaml.inspect  %>

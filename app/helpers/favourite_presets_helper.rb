@@ -1,0 +1,2 @@
+module FavouritePresetsHelper
+end

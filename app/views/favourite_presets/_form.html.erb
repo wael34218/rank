@@ -1,0 +1,29 @@
+<%= form_for(@favourite_preset) do |f| %>
+  <% if @favourite_preset.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@favourite_preset.errors.count, "error") %> prohibited this favourite_preset from being saved:</h2>
+
+      <ul>
+      <% @favourite_preset.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :photo%><br>
+    <%= f.file_field :photo %>
+  </div>
+  <div class="field">
+    <%= f.label :favourite_category_id %><br>
+    <%= f.select :favourite_category_id, options_for_select(FavouriteCategory.all.map{|f| [f.title, f.id]}) %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

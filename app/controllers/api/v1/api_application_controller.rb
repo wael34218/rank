@@ -13,6 +13,9 @@ class Api::V1::ApiApplicationController < ApplicationController
       @message = "Invalid token"
       render 'api/v1/error', :status => :unauthorized
       return
+    else
+      # TODO: Cache results
+      @friends_info = @account.friends.inject({}){|res, el| res[el.friend_id]={rank:el.rank, bond:el.bond}; res}
     end
   end
 end

@@ -1,0 +1,46 @@
+---
+favourite_categories_001:
+  id: '1'
+  title: 'Food'
+  photo_file_name: IMG_20121004_221509.jpg
+  photo_content_type: image/jpeg
+  photo_file_size: '402297'
+  photo_updated_at: '2014-05-31 07:27:47.126891'
+  created_at: '2014-05-31 07:27:49.102816'
+  updated_at: '2014-05-31 07:27:49.102816'
+favourite_categories_002:
+  id: '2'
+  title: 'Sports'
+  photo_file_name: IMG_20121001_155047.jpg
+  photo_content_type: image/jpeg
+  photo_file_size: '359456'
+  photo_updated_at: '2014-05-31 07:28:14.85351'
+  created_at: '2014-05-31 07:28:16.053331'
+  updated_at: '2014-05-31 07:28:16.053331'
+favourite_categories_003:
+  id: '3'
+  title: 'Music'
+  photo_file_name: IMG_20121004_221509.jpg
+  photo_content_type: image/jpeg
+  photo_file_size: '402297'
+  photo_updated_at: '2014-05-31 07:27:47.126891'
+  created_at: '2014-05-31 07:27:49.102816'
+  updated_at: '2014-05-31 07:27:49.102816'
+favourite_categories_004:
+  id: '4'
+  title: 'Movies'
+  photo_file_name: IMG_20121004_221509.jpg
+  photo_content_type: image/jpeg
+  photo_file_size: '402297'
+  photo_updated_at: '2014-05-31 07:27:47.126891'
+  created_at: '2014-05-31 07:27:49.102816'
+  updated_at: '2014-05-31 07:27:49.102816'
+favourite_categories_005:
+  id: '5'
+  title: 'Cars'
+  photo_file_name: IMG_20121004_221509.jpg
+  photo_content_type: image/jpeg
+  photo_file_size: '402297'
+  photo_updated_at: '2014-05-31 07:27:47.126891'
+  created_at: '2014-05-31 07:27:49.102816'
+  updated_at: '2014-05-31 07:27:49.102816'

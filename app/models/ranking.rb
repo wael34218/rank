@@ -61,7 +61,7 @@ class Ranking < Activity
     if new_rank.blank?
       new_rank = friendship.rank - self.rank_change.to_i
     end
-    self.target.reorder_friend!(self.target, new_rank)
+    self.target.reorder_friend!(self.ranked, new_rank)
     self.status = STATUSES.index(:approved)
     self.urgent = false
     self.save

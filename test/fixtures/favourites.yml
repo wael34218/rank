@@ -1,0 +1,73 @@
+---
+favourites_001:
+  id: '1'
+  title: Test
+  account_id: '1'
+  favourite_category_id: '1'
+  favourite_preset_id: 
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-31 08:23:23.201081'
+  updated_at: '2014-05-31 08:23:23.201081'
+favourites_002:
+  id: '2'
+  title: 
+  account_id: '1'
+  favourite_category_id: '2'
+  favourite_preset_id: '1'
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-31 08:27:27.336662'
+  updated_at: '2014-05-31 08:27:27.336662'
+favourites_003:
+  id: '3'
+  title: Should not show up
+  account_id: '7'
+  favourite_category_id: '2'
+  favourite_preset_id: '2'
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-05-31 08:35:08.889362'
+  updated_at: '2014-05-31 08:35:08.889362'
+favourites_004:
+  id: '4'
+  title: Falafel
+  account_id: '5'
+  favourite_category_id: '1'
+  favourite_preset_id: 
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-06-01 13:11:43.240218'
+  updated_at: '2014-06-01 13:11:43.240218'
+favourites_005:
+  id: '5'
+  title: Ketchup
+  account_id: '7'
+  favourite_category_id: '1'
+  favourite_preset_id: 
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-06-01 13:12:27.46457'
+  updated_at: '2014-06-01 13:12:27.46457'
+favourites_006:
+  id: '7'
+  title: Batata
+  account_id: '7'
+  favourite_category_id: '1'
+  favourite_preset_id: 
+  photo_file_name: 
+  photo_content_type: 
+  photo_file_size: 
+  photo_updated_at: 
+  created_at: '2014-06-01 15:30:43.425723'
+  updated_at: '2014-06-01 15:30:43.425723'
