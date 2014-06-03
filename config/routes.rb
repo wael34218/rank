@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+
   resources :favourite_presets
   resources :favourite_categories
   resources :moment_categories
