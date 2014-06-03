@@ -10,11 +10,11 @@ categories:
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
     body: "{\"favourite_categories\":[{\"id\":1,\"title\":\"Food\",\"created_at\":\"2014-05-31
-      07:27:49 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"},{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
-      07:28:16 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"},{\"id\":3,\"title\":\"Music\",\"created_at\":\"2014-05-31
-      07:27:49 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/003/large/IMG_20121004_221509.jpg?1401521267\"},{\"id\":4,\"title\":\"Movies\",\"created_at\":\"2014-05-31
-      07:27:49 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/004/large/IMG_20121004_221509.jpg?1401521267\"},{\"id\":5,\"title\":\"Cars\",\"created_at\":\"2014-05-31
-      07:27:49 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/005/large/IMG_20121004_221509.jpg?1401521267\"}]}"
+      07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"},{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
+      07:28:16 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"},{\"id\":3,\"title\":\"Music\",\"created_at\":\"2014-05-31
+      07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/003/large/IMG_20121004_221509.jpg?1401521267\"},{\"id\":4,\"title\":\"Movies\",\"created_at\":\"2014-05-31
+      07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/004/large/IMG_20121004_221509.jpg?1401521267\"},{\"id\":5,\"title\":\"Cars\",\"created_at\":\"2014-05-31
+      07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/005/large/IMG_20121004_221509.jpg?1401521267\"}]}"
 create:
   ID-7223af37e5acde9ecef18ab23e0062b9:
     description: |-
@@ -27,9 +27,9 @@ create:
       favourite_category_id: '3'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"favourite\":{\"id\":8,\"created_at\":\"2014-06-02 14:49:30 UTC\",\"account_id\":5,\"favourite_preset_id\":null,\"title\":\"Break
-      their backs\",\"photo\":\"http:/images/default_avatar_large.png\",\"category\":{\"id\":3,\"title\":\"Music\",\"created_at\":\"2014-05-31
-      07:27:49 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/003/large/IMG_20121004_221509.jpg?1401521267\"}}}"
+    body: "{\"favourite\":{\"id\":8,\"created_at\":\"2014-06-03 09:01:11 UTC\",\"account_id\":5,\"favourite_preset_id\":null,\"title\":\"Break
+      their backs\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":3,\"title\":\"Music\",\"created_at\":\"2014-05-31
+      07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/003/large/IMG_20121004_221509.jpg?1401521267\"}}}"
   ID-2156b334ee80e6cbf3995dcd3ac9babf:
     description: |-
       Select a favourite from a preset:
@@ -40,8 +40,8 @@ create:
       favourite_preset_id: '1'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"favourite\":{\"id\":9,\"created_at\":\"2014-06-02 14:49:30 UTC\",\"account_id\":5,\"favourite_preset_id\":1,\"title\":\"Pantera\",\"photo\":\"http:/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
-      07:28:16 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}}}"
+    body: "{\"favourite\":{\"id\":9,\"created_at\":\"2014-06-03 09:01:11 UTC\",\"account_id\":5,\"favourite_preset_id\":1,\"title\":\"Pantera\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
+      07:28:16 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}}}"
 destroy:
   ID-ecb13f871c205ace78d6aa4704cd9145:
     description: |-
@@ -64,8 +64,8 @@ index:
     params:
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"favourites\":[{\"id\":4,\"created_at\":\"2014-06-01 13:11:43 UTC\",\"account_id\":5,\"favourite_preset_id\":null,\"title\":\"Falafel\",\"photo\":\"http:/images/default_avatar_large.png\",\"category\":{\"id\":1,\"title\":\"Food\",\"created_at\":\"2014-05-31
-      07:27:49 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"}}]}"
+    body: "{\"favourites\":[{\"id\":4,\"created_at\":\"2014-06-01 13:11:43 UTC\",\"account_id\":5,\"favourite_preset_id\":null,\"title\":\"Falafel\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":1,\"title\":\"Food\",\"created_at\":\"2014-05-31
+      07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"}}]}"
   ID-7a446790b5718a4aaa5e04b975983298:
     description: |-
       Get favourites for a friend:
@@ -76,10 +76,10 @@ index:
       account_id: '1'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"favourites\":[{\"id\":1,\"created_at\":\"2014-05-31 08:23:23 UTC\",\"account_id\":1,\"favourite_preset_id\":null,\"title\":\"Test\",\"photo\":\"http:/images/default_avatar_large.png\",\"category\":{\"id\":1,\"title\":\"Food\",\"created_at\":\"2014-05-31
-      07:27:49 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"}},{\"id\":2,\"created_at\":\"2014-05-31
-      08:27:27 UTC\",\"account_id\":1,\"favourite_preset_id\":1,\"title\":\"Pantera\",\"photo\":\"http:/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
-      07:28:16 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}}]}"
+    body: "{\"favourites\":[{\"id\":1,\"created_at\":\"2014-05-31 08:23:23 UTC\",\"account_id\":1,\"favourite_preset_id\":null,\"title\":\"Test\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":1,\"title\":\"Food\",\"created_at\":\"2014-05-31
+      07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"}},{\"id\":2,\"created_at\":\"2014-05-31
+      08:27:27 UTC\",\"account_id\":1,\"favourite_preset_id\":1,\"title\":\"Pantera\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
+      07:28:16 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}}]}"
   ID-d2e9737e8759a77d23d8f6c21c6a989a:
     description: |-
       Get favourites of a friend for a specific category:
@@ -91,8 +91,8 @@ index:
       account_id: '1'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"favourites\":[{\"id\":1,\"created_at\":\"2014-05-31 08:23:23 UTC\",\"account_id\":1,\"favourite_preset_id\":null,\"title\":\"Test\",\"photo\":\"http:/images/default_avatar_large.png\",\"category\":{\"id\":1,\"title\":\"Food\",\"created_at\":\"2014-05-31
-      07:27:49 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"}}]}"
+    body: "{\"favourites\":[{\"id\":1,\"created_at\":\"2014-05-31 08:23:23 UTC\",\"account_id\":1,\"favourite_preset_id\":null,\"title\":\"Test\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":1,\"title\":\"Food\",\"created_at\":\"2014-05-31
+      07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"}}]}"
 presets:
   ID-38a121a995c31021da89fa8d263ded09:
     description: |-
@@ -104,14 +104,14 @@ presets:
       id: '2'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"favourites\":[{\"id\":1,\"created_at\":\"2014-05-31 08:27:13 UTC\",\"title\":\"Pantera\",\"photo\":\"http:/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
-      07:28:16 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}},{\"id\":2,\"created_at\":\"2014-05-31
-      08:27:13 UTC\",\"title\":\"Tool\",\"photo\":\"http:/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
-      07:28:16 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}},{\"id\":3,\"created_at\":\"2014-05-31
-      08:27:13 UTC\",\"title\":\"Sakookeh\",\"photo\":\"http:/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
-      07:28:16 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}},{\"id\":4,\"created_at\":\"2014-05-31
-      08:27:13 UTC\",\"title\":\"Eluveitie\",\"photo\":\"http:/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
-      07:28:16 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}}]}"
+    body: "{\"favourites\":[{\"id\":1,\"created_at\":\"2014-05-31 08:27:13 UTC\",\"title\":\"Pantera\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
+      07:28:16 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}},{\"id\":2,\"created_at\":\"2014-05-31
+      08:27:13 UTC\",\"title\":\"Tool\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
+      07:28:16 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}},{\"id\":3,\"created_at\":\"2014-05-31
+      08:27:13 UTC\",\"title\":\"Sakookeh\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
+      07:28:16 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}},{\"id\":4,\"created_at\":\"2014-05-31
+      08:27:13 UTC\",\"title\":\"Eluveitie\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
+      07:28:16 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}}]}"
 update:
   ID-e2f1d565c71bc187f57416126f551743:
     description: |-
@@ -124,5 +124,5 @@ update:
       title: Dionysus
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"favourite\":{\"id\":4,\"created_at\":\"2014-06-01 13:11:43 UTC\",\"account_id\":5,\"favourite_preset_id\":null,\"title\":\"Dionysus\",\"photo\":\"http:/images/default_avatar_large.png\",\"category\":{\"id\":1,\"title\":\"Food\",\"created_at\":\"2014-05-31
-      07:27:49 UTC\",\"photo\":\"http:/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"}}}"
+    body: "{\"favourite\":{\"id\":4,\"created_at\":\"2014-06-01 13:11:43 UTC\",\"account_id\":5,\"favourite_preset_id\":null,\"title\":\"Dionysus\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":1,\"title\":\"Food\",\"created_at\":\"2014-05-31
+      07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"}}}"

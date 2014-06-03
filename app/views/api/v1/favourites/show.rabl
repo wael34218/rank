@@ -7,7 +7,7 @@ node(:title) do |favourite|
 end
 
 node(:photo) do |favourite|
-  "http:#{Rails.application.config.action_controller.asset_host}#{favourite.display_photo.url(:large)}"
+  "#{Rails.application.config.action_controller.asset_host}#{favourite.display_photo.url(:large)}"
 end
 
 child :favourite_category, :root => "category" do

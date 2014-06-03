@@ -40,4 +40,5 @@ Rails.application.routes.draw do
       get 'favourites' => "favourites#index"
     end
   end
+  root :to => "favourite_categories#index"
 end

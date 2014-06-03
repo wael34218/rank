@@ -10,8 +10,8 @@ categories:
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
     body: "{\"moment_categories\":[{\"id\":1,\"text\":\"Slapping\",\"created_at\":\"2014-05-28
-      10:29:07 UTC\",\"photo\":\"http:/system/moment_categories/photos/000/000/001/large/2014-05-05_12.27.02.png?1401272945\"},{\"id\":2,\"text\":\"Smacking\",\"created_at\":\"2014-05-28
-      11:18:20 UTC\",\"photo\":\"http:/system/moment_categories/photos/000/000/002/large/logo_org.png?1401275899\"}]}"
+      10:29:07 UTC\",\"photo\":\"http://wael.docpoint.com/system/moment_categories/photos/000/000/001/large/2014-05-05_12.27.02.png?1401272945\"},{\"id\":2,\"text\":\"Smacking\",\"created_at\":\"2014-05-28
+      11:18:20 UTC\",\"photo\":\"http://wael.docpoint.com/system/moment_categories/photos/000/000/002/large/logo_org.png?1401275899\"}]}"
 create:
   ID-23b35cbcd5fb12e4e3579295bb1eea75:
     description: |-
@@ -25,5 +25,5 @@ create:
       moment_category_id: '1'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"moment\":{\"id\":32,\"created_at\":\"2014-06-02 14:49:30 UTC\",\"photo\":\"http:/images/default_photo_large.png\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"friend\":false},\"category\":{\"id\":1,\"text\":\"Slapping\",\"created_at\":\"2014-05-28
-      10:29:07 UTC\",\"photo\":\"http:/system/moment_categories/photos/000/000/001/large/2014-05-05_12.27.02.png?1401272945\"}}}"
+    body: "{\"moment\":{\"id\":32,\"created_at\":\"2014-06-03 09:01:12 UTC\",\"photo\":\"http://wael.docpoint.com/images/default_photo_large.png\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"category\":{\"id\":1,\"text\":\"Slapping\",\"created_at\":\"2014-05-28
+      10:29:07 UTC\",\"photo\":\"http://wael.docpoint.com/system/moment_categories/photos/000/000/001/large/2014-05-05_12.27.02.png?1401272945\"}}}"
