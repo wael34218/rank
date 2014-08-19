@@ -1,6 +1,7 @@
 object @account
 
 attributes :id, :first_name, :last_name, :nickname, :phone, :moves_count, :joker_count, :social_score
+attribute(:token, :if => params[:action] == "create")
 
 node(:avatar) do |account|
   "#{Rails.application.config.action_controller.asset_host}#{account.avatar.url(:large)}"
