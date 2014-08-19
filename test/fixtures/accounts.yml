@@ -20,7 +20,7 @@ accounts_002:
   id: '5'
   first_name: Rampage
   last_name: Rodriguez
-  nickname: IFuckSDMode
+  nickname: Cambiasso
   social_score: '100'
   token: 2a25980982484222dc0ba9471611a9da6e51fad4
   registered: t
@@ -35,9 +35,9 @@ accounts_002:
   updated_at: '2014-05-24 10:33:15.187805'
 accounts_003:
   id: '1'
-  first_name: Wael
-  last_name: Farhan 
-  nickname: Mayhem
+  first_name: Johan
+  last_name: Anderson 
+  nickname: ProjectMayhem
   social_score: '0'
   token: 
   registered: f
@@ -171,9 +171,9 @@ accounts_010:
   updated_at: '2014-05-25 07:14:36.422668'
 accounts_011:
   id: '12'
-  first_name: Gemma
+  first_name: Roland
   last_name: Atkinson
-  nickname: DoubleD
+  nickname: Awesome
   social_score: '0'
   token: 
   registered: f
@@ -224,7 +224,7 @@ accounts_014:
   id: '7'
   first_name: Carlos
   last_name: Boozer
-  nickname: TattooOnYourHead
+  nickname: BaldYourHead
   social_score: '230'
   token: 9186e07efb64702bf76610f18522440b6785b946
   registered: t

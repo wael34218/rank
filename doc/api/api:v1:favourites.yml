@@ -27,7 +27,7 @@ create:
       favourite_category_id: '3'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"favourite\":{\"id\":8,\"created_at\":\"2014-06-03 09:01:11 UTC\",\"account_id\":5,\"favourite_preset_id\":null,\"title\":\"Break
+    body: "{\"favourite\":{\"id\":8,\"created_at\":\"2014-08-19 08:51:32 UTC\",\"account_id\":5,\"favourite_preset_id\":null,\"title\":\"Break
       their backs\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":3,\"title\":\"Music\",\"created_at\":\"2014-05-31
       07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/003/large/IMG_20121004_221509.jpg?1401521267\"}}}"
   ID-2156b334ee80e6cbf3995dcd3ac9babf:
@@ -40,7 +40,7 @@ create:
       favourite_preset_id: '1'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"favourite\":{\"id\":9,\"created_at\":\"2014-06-03 09:01:11 UTC\",\"account_id\":5,\"favourite_preset_id\":1,\"title\":\"Pantera\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
+    body: "{\"favourite\":{\"id\":9,\"created_at\":\"2014-08-19 08:51:32 UTC\",\"account_id\":5,\"favourite_preset_id\":1,\"title\":\"Pantera\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
       07:28:16 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}}}"
 destroy:
   ID-ecb13f871c205ace78d6aa4704cd9145:

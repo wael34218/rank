@@ -9,7 +9,7 @@ friends:
     params:
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"total\":3,\"total_pages\":1,\"accounts\":[{\"id\":6,\"first_name\":\"Domingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"BullFighterNoStereoTyping\",\"phone\":\"2233434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":60,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":1},{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":60,\"rank\":1},{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}]}"
+    body: "{\"total\":3,\"total_pages\":1,\"accounts\":[{\"id\":6,\"first_name\":\"Domingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"BullFighterNoStereoTyping\",\"phone\":\"2233434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":60,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":1},{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"BaldYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":60,\"rank\":1},{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}]}"
 ranked_friends:
   ID-ebbbdfbaa7b85f8de558884ecb0b6b94:
     description: |-
@@ -21,19 +21,19 @@ ranked_friends:
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
       id: '5'
     status: 200
-    body: "{\"total\":3,\"total_pages\":1,\"accounts\":[{\"id\":6,\"first_name\":\"Domingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"BullFighterNoStereoTyping\",\"phone\":\"2233434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":60,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":1},{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":60,\"rank\":1},{\"id\":1,\"first_name\":\"Wael\",\"last_name\":\"Farhan\",\"nickname\":\"Mayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}]}"
+    body: "{\"total\":3,\"total_pages\":1,\"accounts\":[{\"id\":6,\"first_name\":\"Domingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"BullFighterNoStereoTyping\",\"phone\":\"2233434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":60,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":1},{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"BaldYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":60,\"rank\":1},{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}]}"
 tag_leaders:
-  ID-c6af8b8cc673b8542597f143428f1006:
+  ID-53b984c93831134d5899fdf326b8f24d:
     description: |-
       Get leaderboard of certain tag:
-              curl -X GET http://wael.docpoint.com/api/v1/account/tag_leaders -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tag=subtle porn'
+              curl -X GET http://wael.docpoint.com/api/v1/account/tag_leaders -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tag=music'
     method: GET
     path: "/api/v1/account/tag_leaders"
     params:
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
-      tag: subtle porn
+      tag: music
     status: 200
-    body: "{\"total\":1,\"total_pages\":1,\"accounts\":[{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"TattooOnYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":60,\"rank\":1}]}"
+    body: "{\"total\":1,\"total_pages\":1,\"accounts\":[{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"BaldYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":60,\"rank\":1}]}"
 create:
   ID-a54c76a01f4d7246fd42fbf823f2e03f:
     description: |-
@@ -47,16 +47,16 @@ create:
       last_name: Warlord
       nickname: Chinese
     status: 200
-    body: "{\"account\":{\"id\":15,\"first_name\":\"Troll\",\"last_name\":\"Warlord\",\"nickname\":\"Chinese\",\"phone\":\"+962791231234123\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}"
+    body: "{\"account\":{\"id\":17,\"first_name\":\"Troll\",\"last_name\":\"Warlord\",\"nickname\":\"Chinese\",\"phone\":\"+962791231234123\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}"
 tags:
-  ID-00ad9596a5b775d7b78244654a202f37:
+  ID-7b5a1fb7b38feb091c55a4051704e946:
     description: |-
       Tags list are comma separated:
-              curl -X POST http://wael.docpoint.com/api/v1/account/tags -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tags=subtle porn,black label society'
+              curl -X POST http://wael.docpoint.com/api/v1/account/tags -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tags=music,society'
     method: POST
     path: "/api/v1/account/tags"
     params:
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
-      tags: subtle porn,black label society
+      tags: music,society
     status: 200
-    body: "{\"account\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}"
+    body: "{\"account\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}"

@@ -10,17 +10,17 @@ class AccountsTest < ActionDispatch::IntegrationTest
   end
 
   def test_account_set_clicks
-    api_call(:post, '/api/v1/account/tags', token: '2a25980982484222dc0ba9471611a9da6e51fad4', tags: 'subtle porn,black label society') do |doc|
+    api_call(:post, '/api/v1/account/tags', token: '2a25980982484222dc0ba9471611a9da6e51fad4', tags: 'music,society') do |doc|
       doc.description = "Tags list are comma separated:
-        curl -X POST http://wael.docpoint.com/api/v1/account/tags -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tags=subtle porn,black label society'"
+        curl -X POST http://wael.docpoint.com/api/v1/account/tags -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tags=music,society'"
       assert_response :success
     end
   end
 
   def test_account_get_tag_leaders
-    api_call(:get, '/api/v1/account/tag_leaders', token: '2a25980982484222dc0ba9471611a9da6e51fad4', tag: 'subtle porn') do |doc|
+    api_call(:get, '/api/v1/account/tag_leaders', token: '2a25980982484222dc0ba9471611a9da6e51fad4', tag: 'music') do |doc|
       doc.description = "Get leaderboard of certain tag:
-        curl -X GET http://wael.docpoint.com/api/v1/account/tag_leaders -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tag=subtle porn'"
+        curl -X GET http://wael.docpoint.com/api/v1/account/tag_leaders -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tag=music'"
       assert_response :success
     end
   end

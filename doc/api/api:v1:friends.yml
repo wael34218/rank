@@ -15,7 +15,7 @@ create:
       friends[1][last_name]: NoMore
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"friends\":[{\"phone\":\"+962791231234123\",\"id\":16},{\"phone\":\"+962791231234124\",\"id\":17}]}"
+    body: "{\"friends\":[{\"phone\":\"+962791231234123\",\"id\":15},{\"phone\":\"+962791231234124\",\"id\":16}]}"
 update:
   ID-9b6237b91ed36dc92db0696112009cfc:
     description: |-
@@ -28,7 +28,7 @@ update:
       rank: '4'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"friend\":{\"rank\":4,\"account\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"friend\":{\"id\":2,\"first_name\":\"Ziad\",\"last_name\":\"Salah\",\"nickname\":\"SoV\",\"phone\":\"+962-423694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":30,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}}"
+    body: "{\"friend\":{\"rank\":4,\"account\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"friend\":{\"id\":2,\"first_name\":\"Ziad\",\"last_name\":\"Salah\",\"nickname\":\"SoV\",\"phone\":\"+962-423694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":30,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}}"
   ID-c9bb3aad93f5833d9ed02732fd213754:
     description: Updating friends rank using phone number
     method: PATCH
@@ -38,7 +38,7 @@ update:
       rank: '2'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"friend\":{\"rank\":2,\"account\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"IFuckSDMode\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"friend\":{\"id\":8,\"first_name\":\"Baffalo\",\"last_name\":\"Wings\",\"nickname\":\"Bia3teekJwane7\",\"phone\":\"+962-771231234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":86,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}}"
+    body: "{\"friend\":{\"rank\":2,\"account\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"friend\":{\"id\":8,\"first_name\":\"Baffalo\",\"last_name\":\"Wings\",\"nickname\":\"Bia3teekJwane7\",\"phone\":\"+962-771231234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":86,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}}"
   ID-550793dc4ca6b6f1185d053766880a0c:
     description: If friend information is incorrect
     method: PATCH
