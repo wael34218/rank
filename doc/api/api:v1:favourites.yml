@@ -1,9 +1,9 @@
 ---
 categories:
-  ID-9774a06c703712b72ccb2ab475fd0df2:
+  ID-d4ea5deb87d4da4fd32ee4d3255cc834:
     description: |-
       Get all favourite categories:
-              curl -X GET http://wael.docpoint.com/api/v1/favourite/categories -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X GET http://rank1.herokuapp.com/api/v1/favourite/categories -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: GET
     path: "/api/v1/favourite/categories"
     params:
@@ -16,10 +16,10 @@ categories:
       07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/004/large/IMG_20121004_221509.jpg?1401521267\"},{\"id\":5,\"title\":\"Cars\",\"created_at\":\"2014-05-31
       07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/005/large/IMG_20121004_221509.jpg?1401521267\"}]}"
 create:
-  ID-7223af37e5acde9ecef18ab23e0062b9:
+  ID-a7303fc465b243420363fe0b90efae5c:
     description: |-
       Create new favourite for your account:
-              curl -X POST http://wael.docpoint.com/api/v1/favourite -d 'favourite_category_id=3&title=Break Their Backs&token=2a25980982484222dc0ba9471611a9da6e51fad4' -F photo=@kitchen.jpg
+              curl -X POST http://rank1.herokuapp.com/api/v1/favourite -d 'favourite_category_id=3&title=Break Their Backs&token=2a25980982484222dc0ba9471611a9da6e51fad4' -F photo=@kitchen.jpg
     method: POST
     path: "/api/v1/favourite"
     params:
@@ -27,26 +27,26 @@ create:
       favourite_category_id: '3'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"favourite\":{\"id\":8,\"created_at\":\"2014-08-19 08:51:32 UTC\",\"account_id\":5,\"favourite_preset_id\":null,\"title\":\"Break
+    body: "{\"favourite\":{\"id\":8,\"created_at\":\"2014-08-19 09:59:44 UTC\",\"account_id\":5,\"favourite_preset_id\":null,\"title\":\"Break
       their backs\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":3,\"title\":\"Music\",\"created_at\":\"2014-05-31
       07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/003/large/IMG_20121004_221509.jpg?1401521267\"}}}"
-  ID-2156b334ee80e6cbf3995dcd3ac9babf:
+  ID-c14f696dcfd9073cc42920211ed8b59d:
     description: |-
       Select a favourite from a preset:
-              curl -X POST http://wael.docpoint.com/api/v1/favourite -d 'favourite_preset_id=1&token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X POST http://rank1.herokuapp.com/api/v1/favourite -d 'favourite_preset_id=1&token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: POST
     path: "/api/v1/favourite"
     params:
       favourite_preset_id: '1'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"favourite\":{\"id\":9,\"created_at\":\"2014-08-19 08:51:32 UTC\",\"account_id\":5,\"favourite_preset_id\":1,\"title\":\"Pantera\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
+    body: "{\"favourite\":{\"id\":9,\"created_at\":\"2014-08-19 09:59:44 UTC\",\"account_id\":5,\"favourite_preset_id\":1,\"title\":\"Pantera\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
       07:28:16 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}}}"
 destroy:
-  ID-ecb13f871c205ace78d6aa4704cd9145:
+  ID-4aed7c158ea46eae8d814b999d0c7355:
     description: |-
       Delete a favourite:
-              curl -X DELETE http://wael.docpoint.com/api/v1/favourite/4 -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&title=Dionysus'
+              curl -X DELETE http://rank1.herokuapp.com/api/v1/favourite/4 -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&title=Dionysus'
     method: DELETE
     path: "/api/v1/favourite/:id"
     params:
@@ -55,10 +55,10 @@ destroy:
     status: 200
     body: "{\"message\":\"Favourite destroyed successfully.\"}"
 index:
-  ID-365e63353b7cd6c2ef8329254523631f:
+  ID-c37a894cf43d443b103799e5188f7106:
     description: |-
       Get my favourite:
-              curl -X GET http://wael.docpoint.com/api/v1/favourites -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X GET http://rank1.herokuapp.com/api/v1/favourites -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: GET
     path: "/api/v1/favourites"
     params:
@@ -66,10 +66,10 @@ index:
     status: 200
     body: "{\"favourites\":[{\"id\":4,\"created_at\":\"2014-06-01 13:11:43 UTC\",\"account_id\":5,\"favourite_preset_id\":null,\"title\":\"Falafel\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":1,\"title\":\"Food\",\"created_at\":\"2014-05-31
       07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"}}]}"
-  ID-7a446790b5718a4aaa5e04b975983298:
+  ID-dcd1c35a9e423c8769b9a117348358c2:
     description: |-
       Get favourites for a friend:
-              curl -X GET http://wael.docpoint.com/api/v1/favourites -d 'account_id=1&token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X GET http://rank1.herokuapp.com/api/v1/favourites -d 'account_id=1&token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: GET
     path: "/api/v1/favourites"
     params:
@@ -80,10 +80,10 @@ index:
       07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"}},{\"id\":2,\"created_at\":\"2014-05-31
       08:27:27 UTC\",\"account_id\":1,\"favourite_preset_id\":1,\"title\":\"Pantera\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
       07:28:16 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}}]}"
-  ID-d2e9737e8759a77d23d8f6c21c6a989a:
+  ID-0c0110a921ef703f8c1efee1f71c551b:
     description: |-
       Get favourites of a friend for a specific category:
-              curl -X GET http://wael.docpoint.com/api/v1/favourites -d 'favourite_category_id=1&account_id=1&token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X GET http://rank1.herokuapp.com/api/v1/favourites -d 'favourite_category_id=1&account_id=1&token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: GET
     path: "/api/v1/favourites"
     params:
@@ -94,10 +94,10 @@ index:
     body: "{\"favourites\":[{\"id\":1,\"created_at\":\"2014-05-31 08:23:23 UTC\",\"account_id\":1,\"favourite_preset_id\":null,\"title\":\"Test\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":1,\"title\":\"Food\",\"created_at\":\"2014-05-31
       07:27:49 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/001/large/IMG_20121004_221509.jpg?1401521267\"}}]}"
 presets:
-  ID-38a121a995c31021da89fa8d263ded09:
+  ID-4e2d0e10d4a78d17c7d755fbf4c6561e:
     description: |-
       Get favourite presets for certain category:
-              curl -X GET http://wael.docpoint.com/api/v1/favourite/:id/presets -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X GET http://rank1.herokuapp.com/api/v1/favourite/:id/presets -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: GET
     path: "/api/v1/favourite/category/:id/presets"
     params:
@@ -113,10 +113,10 @@ presets:
       08:27:13 UTC\",\"title\":\"Eluveitie\",\"photo\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"category\":{\"id\":2,\"title\":\"Sports\",\"created_at\":\"2014-05-31
       07:28:16 UTC\",\"photo\":\"http://wael.docpoint.com/system/favourite_categories/photos/000/000/002/large/IMG_20121001_155047.jpg?1401521294\"}}]}"
 update:
-  ID-e2f1d565c71bc187f57416126f551743:
+  ID-e422be956ab070eaaeef1c42130882c0:
     description: |-
       Update a favourite:
-              curl -X PATCH http://wael.docpoint.com/api/v1/favourite/4 -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&title=Dionysus'
+              curl -X PATCH http://rank1.herokuapp.com/api/v1/favourite/4 -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&title=Dionysus'
     method: PATCH
     path: "/api/v1/favourite/:id"
     params:

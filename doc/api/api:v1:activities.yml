@@ -1,9 +1,9 @@
 ---
 comment:
-  ID-dc48b98515d2e7f2cac3400d452095a0:
+  ID-d13828511171a6bc6333372f67db9082:
     description: |-
       Comment on an activity:
-              curl -X POST http://wael.docpoint.com/api/v1/activity/5/comment -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&message=This is awesome'
+              curl -X POST http://rank1.herokuapp.com/api/v1/activity/5/comment -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&message=This is awesome'
     method: POST
     path: "/api/v1/activity/:id/comment"
     params:
@@ -14,10 +14,10 @@ comment:
     body: "{\"activity\":{\"ranking\":{\"id\":2,\"urgent\":true,\"created_at\":\"2014-05-25
       14:41:40 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":2,\"first_name\":\"Ziad\",\"last_name\":\"Salah\",\"nickname\":\"SoV\",\"phone\":\"+962-423694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}}}}"
 index:
-  ID-ee048347f28a792aebffd0261ec07fc0:
+  ID-7f1c0ff4774406420ab7cf9df7c25f68:
     description: |-
       Get news feed (default page=1 and per_page=10):
-              curl -X GET http://wael.docpoint.com/api/v1/activities -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X GET http://rank1.herokuapp.com/api/v1/activities -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: GET
     path: "/api/v1/activities"
     params:
@@ -34,10 +34,10 @@ index:
       14:41:40 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":2,\"first_name\":\"Ziad\",\"last_name\":\"Salah\",\"nickname\":\"SoV\",\"phone\":\"+962-423694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}}},{\"ranking\":{\"id\":3,\"urgent\":true,\"created_at\":\"2014-05-25
       14:47:24 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":8,\"first_name\":\"Baffalo\",\"last_name\":\"Wings\",\"nickname\":\"Bia3teekJwane7\",\"phone\":\"+962-771231234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":43,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}}},{\"ranking\":{\"id\":4,\"urgent\":true,\"created_at\":\"2014-05-25
       14:47:54 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":3,\"first_name\":\"Wajdy\",\"last_name\":\"Farhan\",\"nickname\":\"Ty13r\",\"phone\":\"+962-223694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}}}]}"
-  ID-6ec6c9bd73598c9d145e2f1e9a746b5d:
+  ID-c255f6ce27d5c9626cba5e2f96b0050b:
     description: |-
       Get news feed with pages:
-              curl -X GET http://wael.docpoint.com/api/v1/activities -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&page=2&per_page=5'
+              curl -X GET http://rank1.herokuapp.com/api/v1/activities -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&page=2&per_page=5'
     method: GET
     path: "/api/v1/activities"
     params:
@@ -52,10 +52,10 @@ index:
       14:47:24 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":8,\"first_name\":\"Baffalo\",\"last_name\":\"Wings\",\"nickname\":\"Bia3teekJwane7\",\"phone\":\"+962-771231234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":43,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}}},{\"ranking\":{\"id\":4,\"urgent\":true,\"created_at\":\"2014-05-25
       14:47:54 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":3,\"first_name\":\"Wajdy\",\"last_name\":\"Farhan\",\"nickname\":\"Ty13r\",\"phone\":\"+962-223694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}}}]}"
 like:
-  ID-f0f628858d96bc8bbdd45f44a7827168:
+  ID-feebf10a8d2757ed670af24e172b68da:
     description: |-
       Like on an activity:
-              curl -X POST http://wael.docpoint.com/api/v1/activity/7/like -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X POST http://rank1.herokuapp.com/api/v1/activity/7/like -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: POST
     path: "/api/v1/activity/:id/like"
     params:

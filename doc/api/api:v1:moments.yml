@@ -1,9 +1,9 @@
 ---
 categories:
-  ID-7ec3420e15e871b8802c6cbd4904efcd:
+  ID-285214c17e70f02b23fae35c32c79c35:
     description: |-
       Get all moment categories:
-              curl -X GET http://wael.docpoint.com/api/v1/moment/categories -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X GET http://rank1.herokuapp.com/api/v1/moment/categories -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: GET
     path: "/api/v1/moment/categories"
     params:
@@ -13,10 +13,10 @@ categories:
       10:29:07 UTC\",\"photo\":\"http://wael.docpoint.com/system/moment_categories/photos/000/000/001/large/2014-05-05_12.27.02.png?1401272945\"},{\"id\":2,\"text\":\"Smacking\",\"created_at\":\"2014-05-28
       11:18:20 UTC\",\"photo\":\"http://wael.docpoint.com/system/moment_categories/photos/000/000/002/large/logo_org.png?1401275899\"}]}"
 create:
-  ID-23b35cbcd5fb12e4e3579295bb1eea75:
+  ID-93452144046d2a08b5c57247be1459ee:
     description: |-
       Create new moment with:
-              curl -X POST http://wael.docpoint.com/api/v1/moment -d 'moment_category_id=3&moment_category_id=1&message=Break Their Backs&token=2a25980982484222dc0ba9471611a9da6e51fad4' -F photo=@kitchen.jpg
+              curl -X POST http://rank1.herokuapp.com/api/v1/moment -d 'moment_category_id=3&moment_category_id=1&message=Break Their Backs&token=2a25980982484222dc0ba9471611a9da6e51fad4' -F photo=@kitchen.jpg
     method: POST
     path: "/api/v1/moment"
     params:
@@ -25,5 +25,5 @@ create:
       moment_category_id: '1'
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"moment\":{\"id\":30,\"created_at\":\"2014-08-19 08:51:32 UTC\",\"photo\":\"http://wael.docpoint.com/images/default_photo_large.png\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"category\":{\"id\":1,\"text\":\"Slapping\",\"created_at\":\"2014-05-28
+    body: "{\"moment\":{\"id\":31,\"created_at\":\"2014-08-19 09:59:44 UTC\",\"photo\":\"http://wael.docpoint.com/images/default_photo_large.png\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"token\":\"2a25980982484222dc0ba9471611a9da6e51fad4\",\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"token\":\"2a25980982484222dc0ba9471611a9da6e51fad4\",\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"category\":{\"id\":1,\"text\":\"Slapping\",\"created_at\":\"2014-05-28
       10:29:07 UTC\",\"photo\":\"http://wael.docpoint.com/system/moment_categories/photos/000/000/001/large/2014-05-05_12.27.02.png?1401272945\"}}}"

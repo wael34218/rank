@@ -1,9 +1,9 @@
 ---
 bribe_approve:
-  ID-5aaa2a58dcb7373b6bb2e67ad9dc05eb:
+  ID-a96236956a9cb61bc9056e76d92937b5:
     description: |-
       Accept bribe:
-              curl -X GET http://wael.docpoint.com/api/v1/ranking/7/bribe_approve -d 'token=9186e07efb64702bf76610f18522440b6785b946'
+              curl -X GET http://rank1.herokuapp.com/api/v1/ranking/7/bribe_approve -d 'token=9186e07efb64702bf76610f18522440b6785b946'
     method: GET
     path: "/api/v1/ranking/:id/bribe_approve"
     params:
@@ -13,10 +13,10 @@ bribe_approve:
     body: "{\"ranking\":{\"id\":7,\"rank_change\":\"1\",\"yes\":\"0\",\"no\":\"0\",\"yes_ids\":null,\"no_ids\":null,\"urgent\":false,\"created_at\":\"2014-05-25
       15:02:25 UTC\",\"tool\":\"bribe\",\"status\":\"approved\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"BaldYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":155,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}}}"
 bribe_reject:
-  ID-1337f6e9324218534b119f30b8a41361:
+  ID-fe24c2a8622e297bbb3551f502b4ed60:
     description: |-
       Reject bribe:
-              curl -X GET http://wael.docpoint.com/api/v1/ranking/8/bribe_reject -d 'token=9186e07efb64702bf76610f18522440b6785b946'
+              curl -X GET http://rank1.herokuapp.com/api/v1/ranking/8/bribe_reject -d 'token=9186e07efb64702bf76610f18522440b6785b946'
     method: GET
     path: "/api/v1/ranking/:id/bribe_reject"
     params:
@@ -26,10 +26,10 @@ bribe_reject:
     body: "{\"ranking\":{\"id\":8,\"rank_change\":\"1\",\"yes\":\"0\",\"no\":\"0\",\"yes_ids\":null,\"no_ids\":null,\"urgent\":false,\"created_at\":\"2014-05-25
       15:02:25 UTC\",\"tool\":\"bribe\",\"status\":\"rejected\",\"subject\":{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"BaldYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":60,\"rank\":1},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}}}"
 create:
-  ID-fca27ebb8a8cea65ccb1078063f4f326:
+  ID-1794bb12e697c3633856857a60c9b686:
     description: |-
       Create new ranking, there are three tools you could use [bribe, suggest, force, joker]:
-              curl -X POST http://wael.docpoint.com/api/v1/ranking -d 'ranked_id=4&target_id=5&rank_change=6&tool=bribe& token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X POST http://rank1.herokuapp.com/api/v1/ranking -d 'ranked_id=4&target_id=5&rank_change=6&tool=bribe& token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: POST
     path: "/api/v1/ranking"
     params:
@@ -39,13 +39,13 @@ create:
       tool: bribe
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
     status: 200
-    body: "{\"ranking\":{\"id\":32,\"rank_change\":\"6\",\"yes\":0,\"no\":0,\"yes_ids\":null,\"no_ids\":null,\"urgent\":true,\"created_at\":\"2014-08-19
-      08:51:33 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"ranked\":{\"id\":4,\"first_name\":\"damingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"bullfighter\",\"phone\":\"234143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}}"
+    body: "{\"ranking\":{\"id\":30,\"rank_change\":\"6\",\"yes\":0,\"no\":0,\"yes_ids\":null,\"no_ids\":null,\"urgent\":true,\"created_at\":\"2014-08-19
+      09:59:44 UTC\",\"tool\":\"bribe\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"token\":\"2a25980982484222dc0ba9471611a9da6e51fad4\",\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"token\":\"2a25980982484222dc0ba9471611a9da6e51fad4\",\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"ranked\":{\"id\":4,\"first_name\":\"damingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"bullfighter\",\"phone\":\"234143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"token\":null,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}}"
 vote_no:
-  ID-5dee5168fee76e72fb1980f1868d01cd:
+  ID-842e00cc8c41f39bcb834d5e8f24346c:
     description: |-
       Vote no for a ranking:
-              curl -X GET http://wael.docpoint.com/api/v1/ranking/6/vote_no -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X GET http://rank1.herokuapp.com/api/v1/ranking/6/vote_no -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: GET
     path: "/api/v1/ranking/:id/vote_no"
     params:
@@ -55,10 +55,10 @@ vote_no:
     body: "{\"ranking\":{\"id\":6,\"rank_change\":\"6\",\"yes\":\"0\",\"no\":1,\"yes_ids\":null,\"no_ids\":\"5\",\"urgent\":true,\"created_at\":\"2014-05-25
       15:02:07 UTC\",\"tool\":\"suggest\",\"status\":\"pending\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":10,\"first_name\":\"Kambiasso\",\"last_name\":\"Messi\",\"nickname\":\"StopRankingMeIAmNotYourProperty\",\"phone\":\"225643434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/system/accounts/avatars/000/000/010/large/kitchen.jpg?1400937973\",\"friend\":false},\"ranked\":{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}}}"
 vote_yes:
-  ID-2e874544569a6b87a212a022b5cc027e:
+  ID-37513f95d84b4924e8836f50c69f0ed8:
     description: |-
       Vote yes for a ranking:
-              curl -X GET http://wael.docpoint.com/api/v1/ranking/6/vote_yes -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X GET http://rank1.herokuapp.com/api/v1/ranking/6/vote_yes -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: GET
     path: "/api/v1/ranking/:id/vote_yes"
     params:

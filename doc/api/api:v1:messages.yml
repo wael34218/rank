@@ -1,9 +1,9 @@
 ---
 create:
-  ID-d0e23b4ffafaef669abf6d2e0e9e5ae6:
+  ID-901dc42f4a573aa06b35d8905e5f0892:
     description: |-
       Create new message sent to account id 6:
-              curl -X POST http://wael.docpoint.com/api/v1/message -d 'message=BreakTheirBacks&private=true&target_id=6& token=2a25980982484222dc0ba9471611a9da6e51fad4' -F photo=@kitchen.jpg
+              curl -X POST http://rank1.herokuapp.com/api/v1/message -d 'message=BreakTheirBacks&private=true&target_id=6& token=2a25980982484222dc0ba9471611a9da6e51fad4' -F photo=@kitchen.jpg
     method: POST
     path: "/api/v1/message"
     params:
@@ -12,4 +12,4 @@ create:
       token: 2a25980982484222dc0ba9471611a9da6e51fad4
       private: 'true'
     status: 200
-    body: "{\"message\":{\"id\":31,\"created_at\":\"2014-08-19 08:51:33 UTC\",\"photo\":\"http://wael.docpoint.com/images/default_photo_large.png\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":6,\"first_name\":\"Domingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"BullFighterNoStereoTyping\",\"phone\":\"2233434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":60,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":1}}}"
+    body: "{\"message\":{\"id\":32,\"created_at\":\"2014-08-19 09:59:44 UTC\",\"photo\":\"http://wael.docpoint.com/images/default_photo_large.png\",\"subject\":{\"id\":5,\"first_name\":\"Rampage\",\"last_name\":\"Rodriguez\",\"nickname\":\"Cambiasso\",\"phone\":\"23434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":100,\"token\":\"2a25980982484222dc0ba9471611a9da6e51fad4\",\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false},\"target\":{\"id\":6,\"first_name\":\"Domingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"BullFighterNoStereoTyping\",\"phone\":\"2233434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":60,\"token\":\"9ec2f2a772dc0af9a2b6bd206d1f7e6f9e4a667d\",\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":1}}}"

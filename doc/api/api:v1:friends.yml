@@ -1,9 +1,9 @@
 ---
 create:
-  ID-f40722246f6bc2c78dc88796565d02e8:
+  ID-0e469539d1c0c1baab28eea1a1311938:
     description: |-
       Creating Friends Records:
-              curl -X POST http://wael.docpoint.com/api/v1/friends -d "friends[0][phone]=12564234234&friends[0][first_name]=Life&friends[0][last_name]=WithoutPandas&friends[1][phone]=125642345234&friends[1][first_name]=Black&friends[1][last_name]=Hitler&token=2a25980982484222dc0ba9471611a9da6e51fad4"
+              curl -X POST http://rank1.herokuapp.com/api/v1/friends -d "friends[0][phone]=12564234234&friends[0][first_name]=Life&friends[0][last_name]=WithoutPandas&friends[1][phone]=125642345234&friends[1][first_name]=Black&friends[1][last_name]=Hitler&token=2a25980982484222dc0ba9471611a9da6e51fad4"
     method: POST
     path: "/api/v1/friends"
     params:
@@ -17,10 +17,10 @@ create:
     status: 200
     body: "{\"friends\":[{\"phone\":\"+962791231234123\",\"id\":15},{\"phone\":\"+962791231234124\",\"id\":16}]}"
 update:
-  ID-9b6237b91ed36dc92db0696112009cfc:
+  ID-5d178eb63b15e3a0ad48e442cd2889a5:
     description: |-
       Adding rank to a new friend:
-              curl -X PATCH http://wael.docpoint.com/api/v1/friends -d 'id=2&rank=3&token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X PATCH http://rank1.herokuapp.com/api/v1/friends -d 'id=2&rank=3&token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: PATCH
     path: "/api/v1/friend"
     params:

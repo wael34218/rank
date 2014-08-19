@@ -1,9 +1,9 @@
 ---
 friends:
-  ID-9fa3de0aac353aa50c98767441c1c731:
+  ID-e3383afe3b8cb2d5e94a1afb120fae74:
     description: |-
       Get all my friends:
-              curl -X GET http://wael.docpoint.com/api/v1/account/friends -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
+              curl -X GET http://rank1.herokuapp.com/api/v1/account/friends -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4'
     method: GET
     path: "/api/v1/account/friends"
     params:
@@ -11,10 +11,10 @@ friends:
     status: 200
     body: "{\"total\":3,\"total_pages\":1,\"accounts\":[{\"id\":6,\"first_name\":\"Domingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"BullFighterNoStereoTyping\",\"phone\":\"2233434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":60,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":1},{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"BaldYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":60,\"rank\":1},{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}]}"
 ranked_friends:
-  ID-ebbbdfbaa7b85f8de558884ecb0b6b94:
+  ID-13325fa4388247b1a8795b19458a805b:
     description: |-
       Get ranked friends for some account:
-              curl -X GET http://wael.docpoint.com/api/v1/account/5/ranked_friends -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&account_id=5'
+              curl -X GET http://rank1.herokuapp.com/api/v1/account/5/ranked_friends -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&account_id=5'
     method: GET
     path: "/api/v1/account/:id/ranked_friends"
     params:
@@ -23,10 +23,10 @@ ranked_friends:
     status: 200
     body: "{\"total\":3,\"total_pages\":1,\"accounts\":[{\"id\":6,\"first_name\":\"Domingo\",\"last_name\":\"Rodriguez\",\"nickname\":\"BullFighterNoStereoTyping\",\"phone\":\"2233434143234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":60,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":1},{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"BaldYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":60,\"rank\":1},{\"id\":1,\"first_name\":\"Johan\",\"last_name\":\"Anderson\",\"nickname\":\"ProjectMayhem\",\"phone\":\"+962-823694263\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":50,\"rank\":3}]}"
 tag_leaders:
-  ID-53b984c93831134d5899fdf326b8f24d:
+  ID-bc14d2af9b45edccd799235879d0eefe:
     description: |-
       Get leaderboard of certain tag:
-              curl -X GET http://wael.docpoint.com/api/v1/account/tag_leaders -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tag=music'
+              curl -X GET http://rank1.herokuapp.com/api/v1/account/tag_leaders -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tag=music'
     method: GET
     path: "/api/v1/account/tag_leaders"
     params:
@@ -35,10 +35,10 @@ tag_leaders:
     status: 200
     body: "{\"total\":1,\"total_pages\":1,\"accounts\":[{\"id\":7,\"first_name\":\"Carlos\",\"last_name\":\"Boozer\",\"nickname\":\"BaldYourHead\",\"phone\":\"2233434234\",\"moves_count\":0,\"joker_count\":0,\"social_score\":230,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":true,\"bond\":60,\"rank\":1}]}"
 create:
-  ID-a54c76a01f4d7246fd42fbf823f2e03f:
+  ID-4c9f4c0fd200c6182a54658153aba167:
     description: |-
       Successful Registration:
-              curl -X POST http://wael.docpoint.com/api/v1/accounts -F "phone=225643434234&first_name=damingo&last_name=Rodriguez& nickname=bullfighterde" -F avatar=@kitchen.jpg
+              curl -X POST http://rank1.herokuapp.com/api/v1/account -F "phone=225643434234&first_name=damingo&last_name=Rodriguez& nickname=bullfighterde" -F avatar=@kitchen.jpg
     method: POST
     path: "/api/v1/account"
     params:
@@ -47,12 +47,12 @@ create:
       last_name: Warlord
       nickname: Chinese
     status: 200
-    body: "{\"account\":{\"id\":17,\"first_name\":\"Troll\",\"last_name\":\"Warlord\",\"nickname\":\"Chinese\",\"phone\":\"+962791231234123\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}"
+    body: "{\"account\":{\"id\":17,\"first_name\":\"Troll\",\"last_name\":\"Warlord\",\"nickname\":\"Chinese\",\"phone\":\"+962791231234123\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"token\":\"98fd984946a38b5881c1fcb05fd1cac3bdeed8ae\",\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}"
 tags:
-  ID-7b5a1fb7b38feb091c55a4051704e946:
+  ID-ddb175a21f96929d4f7396ad912edadf:
     description: |-
       Tags list are comma separated:
-              curl -X POST http://wael.docpoint.com/api/v1/account/tags -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tags=music,society'
+              curl -X POST http://rank1.herokuapp.com/api/v1/account/tags -d 'token=2a25980982484222dc0ba9471611a9da6e51fad4&tags=music,society'
     method: POST
     path: "/api/v1/account/tags"
     params:
