@@ -1,0 +1,7 @@
+To regenerate the API documents us the following commands:
+> rm doc/api/*
+> rake TESTOPTS="--seed=60313" test:integration
+
+To regenerate ERD diagram:
+> rake erd
+
