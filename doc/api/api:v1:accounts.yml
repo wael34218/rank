@@ -47,7 +47,7 @@ create:
       last_name: Warlord
       nickname: Chinese
     status: 200
-    body: "{\"account\":{\"id\":17,\"first_name\":\"Troll\",\"last_name\":\"Warlord\",\"nickname\":\"Chinese\",\"phone\":\"+962791231234123\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"token\":\"98fd984946a38b5881c1fcb05fd1cac3bdeed8ae\",\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}"
+    body: "{\"account\":{\"id\":17,\"first_name\":\"Troll\",\"last_name\":\"Warlord\",\"nickname\":\"Chinese\",\"phone\":\"+962791231234123\",\"moves_count\":0,\"joker_count\":0,\"social_score\":0,\"token\":\"bade6ead7f208f8bd2721fca55fdcc8edbf3df03\",\"avatar\":\"http://wael.docpoint.com/images/default_avatar_large.png\",\"friend\":false}}"
 tags:
   ID-ddb175a21f96929d4f7396ad912edadf:
     description: |-
