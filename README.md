@@ -2,7 +2,7 @@
 
 This project is intended to be the backend service of a mobile social application. The users get points by being friends with more people, an additional points is given if you are in the top 10. The higher you are on others list the more points you get, the more gifts you take.
 
-At the end of each month a top score board is displayed to show the winners.
+At the end of each month a leaderboard is displayed to show the winners.
 
 
 ## Running the application
