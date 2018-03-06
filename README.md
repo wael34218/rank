@@ -19,9 +19,13 @@ Run the server : `rails s -b 127.0.0.1`
 
 ## Testing
 
-To run the automated tests run : `rails test`
+To run the automated tests run : `rake test:integration`
 
 This will automatically generate API documentation for the entire application. The API docs are mounted on `/api_docs` route.
+
+To regenerate the API documents use the following commands:
+* `rm doc/api/*`: To clear out previous apis
+* `rake TESTOPTS="--seed=60313" test:integration`: Generate new APIs
 
 ## Database
 
